@@ -25,6 +25,7 @@
 		3181447329E5051D0034BE86 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3181446E29E5051D0034BE86 /* MockAPI.swift */; };
 		3181447429E5051D0034BE86 /* MockDeals.json in Resources */ = {isa = PBXBuildFile; fileRef = 3181446F29E5051D0034BE86 /* MockDeals.json */; };
 		3181447729E5059B0034BE86 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3181447629E5059B0034BE86 /* SDWebImageSwiftUI */; };
+		3181447E29E511400034BE86 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3181447D29E511400034BE86 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3181447E29E511400034BE86 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,7 @@
 				318143B229E501C70034BE86 /* GameDeals */,
 				318143C329E501C80034BE86 /* GameDealsTests */,
 				318143B129E501C70034BE86 /* Products */,
+				3181447C29E511400034BE86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +164,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3181447C29E511400034BE86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,6 +208,9 @@
 				318143C229E501C80034BE86 /* PBXTargetDependency */,
 			);
 			name = GameDealsTests;
+			packageProductDependencies = (
+				3181447D29E511400034BE86 /* SDWebImageSwiftUI */,
+			);
 			productName = GameDealsTests;
 			productReference = 318143C029E501C80034BE86 /* GameDealsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -490,7 +503,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 22VZBU97V3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.matthewherrmann.GameDealsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,7 +523,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 22VZBU97V3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.matthewherrmann.GameDealsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,6 +579,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		3181447629E5059B0034BE86 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3181447529E5059B0034BE86 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3181447D29E511400034BE86 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3181447529E5059B0034BE86 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
