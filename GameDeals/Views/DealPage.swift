@@ -1,6 +1,6 @@
 // Description: Page containing deal info from Cheap Shark
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import SwiftUI

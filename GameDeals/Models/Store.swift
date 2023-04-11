@@ -1,6 +1,6 @@
 // Description: Struct for decoding a Cheap Shark store
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import Foundation

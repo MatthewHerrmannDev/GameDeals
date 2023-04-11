@@ -1,6 +1,6 @@
 // Description: Class to test Stores class
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import XCTest

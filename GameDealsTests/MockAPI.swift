@@ -1,6 +1,6 @@
 // Description: Class to handle mock API calls
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import Foundation

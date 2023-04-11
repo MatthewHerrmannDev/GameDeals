@@ -1,6 +1,6 @@
 // Description: Grid containing deals from Cheap Shark
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import SwiftUI

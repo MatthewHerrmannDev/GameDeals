@@ -1,6 +1,6 @@
 // Description: Color extension for app color scheme
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import Foundation

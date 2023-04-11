@@ -1,6 +1,6 @@
 // Description: Deal struct for a decoding Cheap Shark deal
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import Foundation

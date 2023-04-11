@@ -1,6 +1,6 @@
 // Description: Main struct for the app
 // Author:      Matthew Herrmann
-// Project:     VideoGameDeals
+// Project:     GameDeals
 // Date:        April 10, 2023
 
 import SwiftUI
