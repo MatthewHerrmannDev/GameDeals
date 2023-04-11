@@ -5,7 +5,7 @@
 
 import XCTest
 import Combine
-@testable import VideoGameDeals
+@testable import GameDeals
 
 final class DealsTests: XCTestCase {
 
