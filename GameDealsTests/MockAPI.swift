@@ -4,7 +4,7 @@
 // Date:        April 10, 2023
 
 import Foundation
-import VideoGameDeals
+import GameDeals
 
 class MockAPI: APIProtocol {
     
